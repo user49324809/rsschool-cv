@@ -2,7 +2,7 @@
 .block_five{
     width: auto;
     height: 668px;
-    background-image: url("/rsschool-cv/christmas-shop/image/bg-snow.png");
+    background-image: url("/rsschool-cv/christmas-shop/image/bg-snow.png"), url("/rsschool-cv/christmas-shop/image/bg-forest.png");
     background-color: #FF4646;
     background-size: cover;
     background-repeat: no-repeat;
