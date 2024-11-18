@@ -1,0 +1,134 @@
+/*style for footer*/
+/*style for block footer*/
+/*style for wrap*/
+.footer_block_wrap{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 1440px;
+    height: 496px;
+    background-color: #FFFFFF;
+}
+
+/*style for image gallery*/
+.footer_wrap_gallery{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    border-radius: 60px;
+    margin-top: 60px;
+    margin-left: 82px;
+    margin-right: 82px;
+    width: 1276px;
+    height: 204px;
+}
+
+.block_footer_cover{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    gap: 12px;
+    background: #ECF3F8;
+    border-radius: 20px;
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+}
+
+.block_footer_cover:active{
+    background-color: rgba(6, 164, 79, 0.1);
+    border: 1px dashed #06A44F;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.footer_logo_image{
+    width: 80px;
+    height: 80px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.footer_number_phone{   
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    line-height: 152%;
+    text-align: center;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    color: #181C29;
+}
+
+.footer_title_text{    
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    line-height: 152%;
+    text-align: center;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    color: #181C29;
+}
+
+.footer_review_block{   
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    line-height: 152%;
+    text-align: center;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: #181C29;
+}
+
+/*style for for copyright block*/
+.footer_social_media{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    margin-top: 60px;
+}
+
+.footer_social_icon{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 12px;
+}
+
+.footer_social_right{
+    margin-bottom: 60px;
+    padding-top: 12px;
+    gap: 12;
+}
+
+.footer_social_text{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    color: #181C29;
+    line-height: 1%;
+    padding-bottom: 12px;
+}
+
+.footer_social_design{ 
+    font-family: 'Allura', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    text-align: center;
+    color: #181C29;
+    gap: 12;
+}
+
+.footer_social_icon a:hover{
+    background-color: #ECF3F8;
+}
