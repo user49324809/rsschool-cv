@@ -47,7 +47,6 @@
 }
 
 .block_two_title{
-    font-style: normal;
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
     font-size: 24px;
@@ -55,11 +54,13 @@
     letter-spacing: 0.16em;
     text-transform: uppercase;
     color: #181C29;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .block_two_description{   
-    font-style: normal;
     font-family: 'Montserrat', sans-serif;
+    width: 115%;
     font-weight: 400;
     font-size: 16px;
     line-height: 148%;
