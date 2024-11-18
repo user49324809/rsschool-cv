@@ -245,6 +245,13 @@ header {
     line-height: 1%;
 }
 
+.block_footer_fon:active{
+    background-color: rgba(6, 164, 79, 0.1);
+    border: 1px dashed #06A44F;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
 .logo_footer_gift{
     width: 80px;
     height: 80px;
