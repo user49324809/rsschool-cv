@@ -126,7 +126,7 @@
     font-size: 24px;
     text-align: center;
     color: #181C29;
-    gap: 12;
+    padding-top: 12px;
 }
 
 .footer_social_icon a:hover{
