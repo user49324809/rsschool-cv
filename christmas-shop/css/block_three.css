@@ -50,6 +50,7 @@
     width: 1356px;
     margin-left: 82px;
     margin-top: 20px;
+    overflow: hidden;
 }
 
 .block_three_word{
