@@ -1,0 +1,73 @@
+/*style for block_two*/
+.block_two{
+    width: auto;
+    height: 648px;
+    background-color: #FF4646;
+    border: solid #FF4646;
+    background-image: url("/cheristmas_tree/image/bg-snow.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.block_two_post{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 1276px;
+    height: 528px;
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    margin-top: 60px;
+    margin-right: 82px;
+    margin-left: 82px;
+}
+
+.block_two_wish{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+    width: 426px;
+    max-width: 426px;
+    height: 328px;
+}
+
+.block_two_script{
+    padding-left: 60px;
+}
+
+.block_two_about{ 
+    font-weight: 400;
+    font-family: 'Allura',sans-serif;
+    font-size: 24px;
+    line-height: 100%;
+    letter-spacing: 0.05em;
+    color: #FF4646;
+}
+
+.block_two_title{
+    font-style: normal;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 152%;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    color: #181C29;
+}
+
+.block_two_description{   
+    font-style: normal;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 148%;
+    color: #181C29;
+}
+
+.block_two_santa{
+    position: absolute;
+    margin-left: 640px;
+    margin-top: 0;
+}

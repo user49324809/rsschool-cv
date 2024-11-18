@@ -1,0 +1,82 @@
+/*style for main block*/
+.block_one{
+    width: 100%;
+    height: 724px;
+    background-color: #FF4646;
+    border-radius: 20px 20px 0px 0px;
+    background-image: url("/cheristmas_tree/image/bg-ball.png"), url("/cheristmas_tree/image/bg-snow.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.block_one_post{
+    position: absolute;
+    width: 426px;
+    height: 404px;
+    left: 507px;
+    top: 0px;
+    margin-top: 320px;
+}
+
+.h1{
+    position: absolute;
+    width: 426px;
+    height: 144px;
+    left: 0px;
+    top: 60px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 150%;
+    text-align: center;
+    letter-spacing: 0.17em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.name{
+    position: absolute;
+    left: 132px;
+    top: 216px;
+    font-family: 'Allura', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 100%;
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+}
+
+
+.block_one_button{
+    position: absolute;
+    width: 235px;
+    height: 56px;
+    left: 95.5px;
+    top: 252px;
+    background: #181C29;
+    border-radius: 20px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.block_one_button:hover{
+    background-color: #FFFFFF;
+    color: #181C29;
+    border: #FFFFFF;
+}
+
+.name_wish{
+    position: absolute;
+    left: 111px;
+    top: 320px;
+    font-family: 'Allura', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 100%;
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+}
