@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Allura&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans&display=swap');
+/*header*/
+*{
+    padding: 0;
+    margin: 0;
+}
+/*header*/
+body {
+    width: 1440px;
+    height: auto;
+    margin: 0; 
+    padding: 0;
+}
+
+header {
+    height: 64px;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    background-color: #FFFFFF;
+}
+
+.gift_header {
+    display: flex;
+    align-items: center;
+}
+
+.logo_gift {
+    padding-left: 82px;
+    display: flex;
+    align-items: center;
+}
+
+.gift_nav {
+    display: flex; 
+    padding-left: 759px; 
+    align-items: center;
+}
+
+.menu_nav {
+    list-style: none;
+    display: flex;
+}
+
+.menu_nav li {
+    padding-right: 35px;
+}
+
+.menu_nav a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.menu_nav a:hover {
+    color: grey;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(255, 70, 70, 0.1);
+    display: flex;
+    width: 78px;
+    height: 40px;
+    border-radius: 12px;
+}

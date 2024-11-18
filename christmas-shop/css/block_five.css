@@ -1,0 +1,138 @@
+/*style for five block*/
+.block_five{
+    width: auto;
+    height: 668px;
+    background-image: url("/rsschool-cv/christmas-shop/image/bg-snow.png"), url("/rsschool-cv/christmas-shop/image/bg-forest.png");
+    background-color: #FF4646;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/*style for post block five*/
+.block_five_post{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    width: 426px;
+    max-width: 426px;
+    height: 428px;
+    padding-left: 507px;
+    padding-top: 120px;
+}
+
+.block_five_title{
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 152%;
+    text-align: center;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.block_five_button{
+    width: 235px;
+    height: 56px;
+    left: 95.5px;
+    top: 252px;
+    background: #181C29;
+    border-radius: 20px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+
+.block_five_button:hover{
+    background-color: #FFFFFF;
+    color: #181C29;
+    border: #FFFFFF;
+}
+
+.block_five_wish{
+    font-family: 'Allura',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 100%;
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+}
+
+.block_five_list{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 8px 12px 12px;
+    width: 344px;
+    height: 72px;
+    background: rgba(255, 255, 255, 0.4);
+    border-radius: 20px;
+}
+
+.block_five_wrap{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    width: 80px;
+    height: 52px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+/*block for timer*/
+.blog_journey_time{
+    display: flex;
+    background: rgba(255, 255, 255, 0.4);
+    border-radius: 20px;
+    width: 344px;
+    height: 72px;
+    text-align: center;
+    gap: 12;
+}
+
+.journey_days {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center; 
+    list-style: none;
+    padding-left: 30px;
+    gap: 12;
+}
+
+.days {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12;
+}
+
+.number {
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 24px;
+    color: #FFFFFF;
+    gap: 12;
+}
+
+.word {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 12px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
+
+.separator {
+    font-size: 24px;
+    color: #FFFFFF; 
+    margin: 0 12px; 
+}

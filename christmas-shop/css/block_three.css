@@ -1,0 +1,65 @@
+/*style for three block*/
+/*style for wrap*/
+.block_three{
+    width: auto;
+    height: 488px;
+    background-image: url("/rsschool-cv/christmas-shop/image/bg-snow.png");
+    background-color: #FF4646;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/*style fore three title*/
+.block_three_title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+    height: 72px;
+    padding-top: 60px;
+}
+
+.block_three_text{
+    font-weight: 400;
+    font-family: 'Allura', sans-serif;
+    font-size: 24px;
+    line-height: 100%;
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+}
+
+.block_three_new{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 152%;
+    text-align: center;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+/*style for slaider*/
+.block_three_slaider{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 20px;
+    width: 1356px;
+    margin-left: 82px;
+    margin-top: 20px;
+    overflow: hidden;
+}
+
+.block_three_word{
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 80px;
+    line-height: 98px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
